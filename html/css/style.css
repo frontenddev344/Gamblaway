@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* BASIC SETUP */
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* NAVIGATION */
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+    z-index: 9999999;
+    transition: all ease .3s;
+    border-bottom: 1px solid transparent;
+}
+
+nav.navbar img {
+    max-width: 200px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    height: 50px;
+    overflow: hidden;
+}
+
+.navbar img {
+
+    justify-self: start;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav-item a {
+
+    display: block;
+    padding: 4px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: #fd871d;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle {
+    justify-self: end;
+    margin-right: 25px;
+    display: none;
+}
+
+.menu-toggle:hover {
+    cursor: pointer;
+}
+
+#mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#mobile-menu.is-active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    -ms-transform: translateY(8px) rotate(45deg);
+    -o-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+}
+
+#mobile-menu.is-active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    -ms-transform: translateY(-8px) rotate(-45deg);
+    -o-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* KEYFRAME ANIMATIONS */
+
+@-webkit-keyframes gradbar {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes gradbar {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes gradbar {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+header.sticky {
+    background: #2e0327;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid rgba(255, 200, 39, 0.1);
+    padding: 10px 0;
+}
+
+/* Banner css */
+section.bnr {
+    background: url(../img/bnr-bg.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 130px 0;
+    position: relative;
+    z-index: 99;
+}
+
+section.bnr::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #2e0327;
+    opacity: .9;
+    z-index: -9;
+}
+
+.bnr-iner .row {
+    align-items: center;
+}
+
+.bnr-text h1 {
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.4;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+}
+
+.bnr-text h1 span {
+
+    text-shadow: 3px -4px 8px rgba(255, 200, 39, 0.3);
+    color: #FFC827;
+}
+
+.bnr-img img {
+    animation-name: objects-on-platform;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+/* 
+@keyframes objects-on-platform {
+    0% {
+        transform: rotate(-7deg);
+    }
+
+    50% {
+        transform: rotate(7deg);
+    }
+
+    100% {
+        transform: rotate(-7deg);
+    }
+} */
+
+.bnr-text {
+    position: relative;
+}
+
+.bnr-text img {
+    position: absolute;
+    top: -100px;
+    left: -150px;
+    max-width: 250px;
+    opacity: .25;
+    z-index: -1;
+    animation-name: box-jump;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box-jump {
+    0% {
+        transform: translateY(0px);
+    }
+
+    30% {
+        transform: translateY(-16px);
+    }
+
+    33% {
+        transform: translateY(-15px);
+    }
+
+    45% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    52% {
+        transform: translateY(-5px);
+    }
+
+    60% {
+        transform: translateY(0px);
+    }
+}
+
+/* section.gambler */
+section.gambler {
+    background: #2e0327;
+    padding: 80px 0;
+    position: relative;
+}
+
+.gambler-iiner .row {
+    align-items: center;
+}
+
+.gambler-text p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    width: 100%;
+    max-width: 621px;
+}
+
+img.shape.shape1 {
+    position: absolute;
+    top: 0;
+    max-width: 421px;
+    top: 30px;
+    opacity: .1;
+    left: 50px;
+    max-width: 300px;
+    animation-name: box-jump;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+/* section.gambler */
+/*  */
+.image {
+    position: relative;
+
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: #fe8e1c 6px 4px;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fd871d82;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+
+
+.image__overlay>* {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover>* {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.destinations-wrapper .row {
+    justify-content: center;
+}
+
+section.destinations {
+    background: url(../img/bg3.jpg);
+    position: relative;
+    z-index: 99;
+    padding: 80px 0;
+}
+
+section.destinations::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #2e0327;
+    opacity: .9;
+    z-index: -9;
+}
+
+.destinations-wrapper .row .col-md-4:last-child,
+.destinations-wrapper .row .col-md-4:nth-child(4),
+.destinations-wrapper .row .col-md-4:nth-child(5) {
+    margin-top: 40px;
+}
+
+.description-card {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.description-card p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+}
+
+/* footer css */
+footer {
+    background: url(../img/footer-bg.jpg);
+    position: relative;
+    z-index: 99;
+    padding: 40px 0 35px;
+}
+
+footer::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #2e0327;
+    opacity: .9;
+    z-index: -9;
+}
+
+.footer-logo img {
+    max-width: 180px;
+    max-height: 60px;
+}
+
+.footer-logo ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-logo ul li a i {
+    background: #2e0327;
+    height: 40px;
+    width: 40px;
+    padding: 9px;
+    text-align: center;
+    color: #FFC827;
+    font-size: 22px;
+    border-radius: 50%;
+    transition: all 0.3s;
+    display: inline-block;
+    margin: 20px 16px 0 0;
+    box-shadow: -3.828px -3.828px 6px 0px rgba(255, 200, 39, 0.4), 3px 5px 8px 0px rgba(255, 82, 1, 0.2);
+}
+
+.footer-logo ul li a i:hover {
+    color: #fff;
+    background-color: #fd871d;
+    transform: translateY(-5px);
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 0 0 30px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.footer-links ul li a:hover {
+    color: #fd871d;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 36px;
+    z-index: -9;
+}
+
+.copyright p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.7;
+    color: #fff;
+    font-size: 16px;
+}
+
+footer .shape1 {
+    position: absolute;
+    max-width: 200px;
+    right: 0;
+    bottom: 0;
+    z-index: -9;
+}
+
+/* Las Vegas */
+section.las-vegas {
+    background: url(../img/bg2.jpg);
+    height: 358px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+    z-index: 99;
+}
+
+section.las-vegas::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #2e0327;
+    opacity: .75;
+    z-index: -9;
+}
+
+.bnr-iner h2 {
+    text-align: center;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+}
+
+.breadcrumbs li a::before {
+    position: absolute;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: "Font Awesome 5 Free";
+    content: '\f30b';
+    font-size: 18px;
+    right: 0;
+    top: 2px;
+    color: #fff;
+}
+
+.bnr-iner ul li a {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.bnr-iner ul li {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+
+}
+
+.bnr-iner ul li i {
+    padding: 0 20px;
+}
+
+#las-vegas .gambler-iiner p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    width: 100%;
+    max-width: 621px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+section.venetian {
+    background: url(../img/bg3.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    position: relative;
+    z-index: 99;
+}
+
+section.venetian::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #2e0327;
+    opacity: .9;
+    z-index: -9;
+}
+
+.text_box {
+    height: 100%;
+    box-shadow: -3.828px -3.828px 6px 0px rgba(255, 200, 39, 0.4), 3px 5px 8px 0px rgba(255, 82, 1, 0.2);
+    background: #2e0327;
+    padding: 16px 16px 70px;
+
+    position: relative;
+}
+
+.text_hotel {
+    padding: 20px 0;
+}
+
+.text_hotel h3 {
+    line-height: 1.4;
+    color: #fd871d;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    text-shadow: 3px -4px 8px rgba(255, 200, 39, 0.3);
+}
+
+.text_hotel p {
+    color: #fff;
+}
+
+.more a {
+    box-shadow: -3.828px -3.828px 6px 0px rgba(255, 200, 39, 0.4), 3px 5px 8px 0px rgba(255, 82, 1, 0.2);
+    background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%);
+    color: #1f1f23;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .3s ease;
+   
+}
+.more a:hover{
+    transform: translateY(-6px);
+}
+.more {
+    position: absolute;
+    bottom: 25px;
+}
+.img_box {
+    position: relative;
+}
+.img_box:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fd871d6e;
+    transform: scale(0);
+    transition: all .5s;
+    width: 100%;
+    height: 100%;
+}
+.img_box:hover::after {
+    transform: scale(1);
+}
+/* Las Vegas */
