@@ -506,6 +506,7 @@ section.las-vegas {
     justify-self: center;
     position: relative;
     z-index: 99;
+    background-position: top;
 }
 
 section.las-vegas::after {

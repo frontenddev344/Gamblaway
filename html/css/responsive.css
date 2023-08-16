@@ -84,6 +84,9 @@
         padding: 80px 0 40px;
 
     }
+    body#macau .venetian-inner .row .col-lg-4:nth-child(2), body#macau .venetian-inner .row .col-lg-4:nth-child(3){
+        margin-top: 40px;
+    }
 }
 
 @media(max-width:767px) {
