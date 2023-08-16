@@ -612,7 +612,10 @@ section.venetian::after {
 }
 
 .text_hotel p {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
 }
 
 .more a {
@@ -627,18 +630,22 @@ section.venetian::after {
     text-decoration: none;
     display: inline-block;
     transition: all .3s ease;
-   
+
 }
-.more a:hover{
+
+.more a:hover {
     transform: translateY(-6px);
 }
+
 .more {
     position: absolute;
     bottom: 25px;
 }
+
 .img_box {
     position: relative;
 }
+
 .img_box:after {
     content: "";
     position: absolute;
@@ -652,7 +659,168 @@ section.venetian::after {
     width: 100%;
     height: 100%;
 }
+
 .img_box:hover::after {
     transform: scale(1);
 }
+
+
+      /* FAQS */
+
+      .main-area-faqs {
+        margin-top: 80px;
+    }
+
+    /* FAQS */
+    .accordion {
+        color: #fff;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        transition: 0.4s;
+        padding: 15px;
+        margin: 26px 0 0;
+        border-radius: 5px 5px 0px 0px;
+        font-size: 18px;
+        font-weight: 500;
+        background: #17a3df9e;
+        font-family: 'Montserrat';
+    }
+
+    .sub-acc {
+        background-color: white;
+        text-decoration: underline;
+        margin: 0;
+        padding: 18px 28px;
+    }
+
+    button.accordion.main-acc.one:focus {
+        outline: none;
+    }
+
+    .main-faq-diclamier {
+        margin-top: 80px;
+    }
+
+    .panel.main-panel {
+        background: #6fc6eba6;
+        border-radius: 0px 0px 5px 5px;
+        height: 100%;
+    }
+
+    .panel.main-panel p {
+        padding: 20px;
+        font-size: 18px;
+        font-family: 'Montserrat';
+    }
+
+    .list-content {
+        padding-top: 20px;
+        font-weight: 600;
+        font-size: 25px !important;
+    }
+
+    button.accordion.main-acc.one.dr {
+        margin-top: 10px !important;
+    }
+
+    .faqs-tex-area h3 {
+        font-size: 35px;
+    }
+
+    .faqs-tex-area p {
+        font-size: 20px;
+    }
+
+    .accordion:after {
+        content: "\002B";
+        color: #fff;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .woodbine-link a:hover {
+        border: 2px solid #8ed2c9;
+        background: transparent;
+        color: #8ed2c9;
+    }
+
+    .accordion-wrapper .active:after {
+        content: "\2212";
+    }
+
+    .panel {
+        position: relative;
+        z-index: 2;
+        background-color: white;
+        border: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
+    .sub-panel {
+        border: none;
+        /*   margin: 20px; */
+    }
+
+    .sub-panel p {
+        padding: 0 18px;
+        margin: 10px 20px;
+        font-family: sans-serif;
+    }
+
+    .main-panel {
+        /*   margin-top: -20px; */
+    }
+
+    .__web-inspector-hide-shortcut__,
+    .__web-inspector-hide-shortcut__ *,
+    .__web-inspector-hidebefore-shortcut__::before,
+    .__web-inspector-hideafter-shortcut__::after {
+        visibility: inherit !important;
+    }
+    .faq-last-text h3 {
+      font-size: 36px;
+      font-family: 'Montserrat';
+      font-weight: 700;
+      color: #6fc6eb;
+  }
+  .faq-last-text p {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    line-height: 30px;
+    font-weight: 400;
+    color: #201f22;
+    text-align: center;
+}
+/* MACAU */
+#macau{
+  margin: 132px 0 0 0;
+  background: url(../images/Macau-Banner.jpg)no-repeat;
+  padding: 90px 0;
+  position: relative;
+  background-size: cover;
+  height: 350px;
+  object-fit: cover;
+}
+#macau:after ,#Atlantic::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.5;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+
 /* Las Vegas */
