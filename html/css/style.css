@@ -859,9 +859,11 @@ section.privacy-text .text-inner p {
     margin-bottom: 0;
     padding-bottom: 16px;
 }
-.text-inner ul{
+
+.text-inner ul {
     padding: 0;
 }
+
 .text-inner ul li {
     position: relative;
     padding-left: 20px;
@@ -870,6 +872,7 @@ section.privacy-text .text-inner p {
     color: #fff;
     font-family: "Open Sans", sans-serif;
 }
+
 .text-inner ul li::before {
     position: absolute;
     content: "";
