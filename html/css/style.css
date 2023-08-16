@@ -832,8 +832,51 @@ body#macau .img_box img {
     height: 255px;
     object-fit: cover;
 }
+
 /* contact page css */
-.gambler-iiner p a{
+.gambler-iiner p a {
     color: #fd871d;
     text-decoration: none;
+}
+
+/*  */
+section.privacy-text .text-inner h5 {
+    font-size: 26px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+section.privacy-text .text-inner p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-bottom: 16px;
+}
+.text-inner ul{
+    padding: 0;
+}
+.text-inner ul li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+.text-inner ul li::before {
+    position: absolute;
+    content: "";
+    background: #fd871d;
+    width: 8px;
+    height: 8px;
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
 }
