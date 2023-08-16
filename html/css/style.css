@@ -813,7 +813,9 @@ body#macau .venetian-inner .row .col-lg-4:last-child,
 body#macau .venetian-inner .row .col-lg-4:nth-child(4) {
     margin-top: 40px;
 }
-
+body#macau  .main-area-faqs{
+    margin: 0;
+}
 .gambler-iiner p {
     color: rgba(255, 255, 255, 0.8);
     line-height: 1.7;
