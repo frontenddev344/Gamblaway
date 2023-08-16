@@ -527,18 +527,6 @@ section.las-vegas::after {
     font-weight: 700;
 }
 
-/* .breadcrumbs li a::before {
-    position: absolute;
-    font-weight: 900;
-    font-size: 16px;
-    font-family: "Font Awesome 5 Free";
-    content: '\f30b';
-    font-size: 18px;
-    right: 0;
-    top: 2px;
-    color: #fff;
-} */
-
 .bnr-iner ul li a {
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
