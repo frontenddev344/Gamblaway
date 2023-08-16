@@ -832,3 +832,8 @@ body#macau .img_box img {
     height: 255px;
     object-fit: cover;
 }
+/* contact page css */
+.gambler-iiner p a{
+    color: #fd871d;
+    text-decoration: none;
+}
