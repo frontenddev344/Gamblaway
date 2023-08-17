@@ -812,7 +812,8 @@ body#macau .venetian-inner .row {
 }
 
 body#macau .venetian-inner .row .col-lg-4:last-child,
-body#macau .venetian-inner .row .col-lg-4:nth-child(4) {
+body#macau .venetian-inner .row .col-lg-4:nth-child(4),
+body#macau .venetian-inner .row .col-lg-4:nth-child(5) {
     margin-top: 40px;
 }
 
