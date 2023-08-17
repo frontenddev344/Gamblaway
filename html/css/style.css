@@ -392,9 +392,9 @@ section.destinations::after {
     z-index: -9;
 }
 
-.destinations-wrapper .row .col-md-4:last-child,
-.destinations-wrapper .row .col-md-4:nth-child(4),
-.destinations-wrapper .row .col-md-4:nth-child(5) {
+.destinations-wrapper .row .col-lg-4:last-child,
+.destinations-wrapper .row .col-lg-4:nth-child(4),
+.destinations-wrapper .row .col-lg-4:nth-child(5) {
     margin-top: 40px;
 }
 
