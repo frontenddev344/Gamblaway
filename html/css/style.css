@@ -158,7 +158,7 @@ nav.navbar img {
 }
 
 header.sticky {
-    background: #2e0327;
+    background: #150035;
     position: fixed;
     top: 0;
     border-bottom: 1px solid rgba(255, 200, 39, 0.1);
@@ -425,7 +425,7 @@ footer::before {
     height: 100%;
     left: 0;
     top: 0;
-    background: #2e0327;
+    background: #150035;
     opacity: .9;
     z-index: -9;
 }
