@@ -888,6 +888,7 @@ section.privacy-text .text-inner p {
 div#venetian .row {
     justify-content: center;
 }
-div#venetian .row .col-lg-4:last-child{
+
+div#venetian .row .col-lg-4:last-child {
     margin-top: 40px;
 }
