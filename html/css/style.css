@@ -884,3 +884,7 @@ section.privacy-text .text-inner p {
     left: 0;
     border-radius: 50%;
 }
+
+div#venetian .row {
+    justify-content: center;
+}
