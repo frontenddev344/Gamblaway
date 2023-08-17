@@ -1,3 +1,13 @@
+@media(max-width:1199px) {
+    section.venetian {
+        padding: 44px 0;
+    }
+
+    section.gambler {
+        padding: 40px 0;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     .features {
         flex-direction: column;
@@ -92,6 +102,15 @@
     body#macau .venetian-inner .row .col-lg-4:nth-child(3) {
         margin-top: 40px;
     }
+
+    div#venetian .row .col-lg-4:nth-child(2),
+    div#venetian .row .col-lg-4:nth-child(3) {
+        margin-top: 40px;
+    }
+
+    #las-vegas .gambler-iiner p {
+        font-size: 16px;
+    }
 }
 
 @media(max-width:767px) {
@@ -104,5 +123,11 @@
     .bnr-iner .row {
 
         flex-direction: column-reverse;
+    }
+
+    .accordion {
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
     }
 }
