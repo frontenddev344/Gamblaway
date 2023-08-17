@@ -111,6 +111,11 @@
     #las-vegas .gambler-iiner p {
         font-size: 16px;
     }
+
+    .gambler-iiner p {
+        font-size: 16px;
+
+    }
 }
 
 @media(max-width:767px) {
