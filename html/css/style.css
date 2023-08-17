@@ -182,7 +182,7 @@ section.bnr::after {
     height: 100%;
     left: 0;
     top: 0;
-    background: #2e0327;
+    background: #150035;
     opacity: .9;
     z-index: -9;
 }
@@ -279,7 +279,7 @@ section.bnr::after {
 
 /* section.gambler */
 section.gambler {
-    background: #2e0327;
+    background: #150035;
     padding: 80px 0;
     position: relative;
 }
@@ -387,7 +387,7 @@ section.destinations::after {
     height: 100%;
     left: 0;
     top: 0;
-    background: #2e0327;
+    background: #150035;
     opacity: .9;
     z-index: -9;
 }
@@ -442,7 +442,7 @@ footer::before {
 }
 
 .footer-logo ul li a i {
-    background: #2e0327;
+    background: #150035;
     height: 40px;
     width: 40px;
     padding: 9px;
@@ -516,7 +516,7 @@ section.las-vegas::after {
     height: 100%;
     left: 0;
     top: 0;
-    background: #2e0327;
+    background: #150035;
     opacity: .75;
     z-index: -9;
 }
@@ -574,7 +574,7 @@ section.venetian::after {
     height: 100%;
     left: 0;
     top: 0;
-    background: #2e0327;
+    background: #150035;
     opacity: .9;
     z-index: -9;
 }
@@ -582,7 +582,7 @@ section.venetian::after {
 .text_box {
     height: 100%;
     box-shadow: -3.828px -3.828px 6px 0px rgba(255, 200, 39, 0.4), 3px 5px 8px 0px rgba(255, 82, 1, 0.2);
-    background: #2e0327;
+    background: #150035;
     padding: 16px 16px 70px;
 
     position: relative;
@@ -673,7 +673,7 @@ section.venetian::after {
     border-radius: 5px 5px 0px 0px;
     font-size: 18px;
     font-weight: 500;
-    background: #2e0327;
+    background: #150035;
     border: 1px solid rgba(255, 200, 39, 0.15);
 }
 
@@ -693,7 +693,7 @@ button.accordion.main-acc.one:focus {
 }
 
 .panel.main-panel {
-    background: #2e0327;
+    background: #150035;
     border-radius: 0px 0px 5px 5px;
     height: 100%;
 }
@@ -789,7 +789,7 @@ button.accordion.main-acc.one.dr {
 
 
 section.drop-faq {
-    background: #350b2d;
+    background: #150035;
     padding: 80px 0;
 }
 
