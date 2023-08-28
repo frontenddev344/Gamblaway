@@ -523,21 +523,36 @@ section.las-vegas {
     z-index: 99;
     background-position: top;
 }
-section.las-vegas.bnr{
+
+section.las-vegas.bnr {
     background: url(../img/las-vegas-bnr.jpeg)no-repeat;
     background-size: cover;
     background-position: center;
-    background-position: 100% 15%; 
+    background-position: 100% 15%;
 }
-section.las-vegas.macau{
-    background:url(../img/bnr-macau.jpeg);
+
+section.las-vegas.macau {
+    background: url(../img/bnr-macau.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position: 100% 30%; 
+    background-position: 100% 30%;
 }
 
-
+section.las-vegas.monte-carlo {
+    background: url(../img/monte.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: 100% 15%;
+}
+section.las-vegas.atlantic-city{
+    background: url(../img/atlantic-city-bnr.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 13%;
+  
+}
 
 
 
