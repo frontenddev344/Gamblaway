@@ -567,6 +567,12 @@ section.las-vegas.newzea {
     background-size: cover;
     background-position: 100% 13%;
 }
+section.las-vegas.privacy {
+    background: url(../img/privacy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 13%;
+}
 
 
 
