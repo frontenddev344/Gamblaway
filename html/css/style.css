@@ -497,6 +497,21 @@ footer .shape1 {
 }
 
 /* Las Vegas */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 section.las-vegas {
     background: url(../img/bg2.jpg);
     height: 358px;
@@ -508,6 +523,50 @@ section.las-vegas {
     z-index: 99;
     background-position: top;
 }
+section.las-vegas.bnr{
+    background: url(../img/las-vegas-bnr.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: 100% 15%; 
+}
+section.las-vegas.macau{
+    background:url(../img/bnr-macau.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: 100% 30%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 section.las-vegas::after {
     position: absolute;
