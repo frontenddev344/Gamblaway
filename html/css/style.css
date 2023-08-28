@@ -546,12 +546,20 @@ section.las-vegas.monte-carlo {
     background-position: center;
     background-position: 100% 15%;
 }
-section.las-vegas.atlantic-city{
+
+section.las-vegas.atlantic-city {
     background: url(../img/atlantic-city-bnr.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 13%;
-  
+
+}
+
+section.las-vegas.canada {
+    background: url(../img/canada-bnr.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 13%;
 }
 
 
