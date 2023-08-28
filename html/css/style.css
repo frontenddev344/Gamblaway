@@ -561,6 +561,13 @@ section.las-vegas.canada {
     background-size: cover;
     background-position: 100% 13%;
 }
+section.las-vegas.newzea {
+    background: url(../img/new-ze.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 13%;
+}
+
 
 
 
