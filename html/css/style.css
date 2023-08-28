@@ -573,7 +573,12 @@ section.las-vegas.privacy {
     background-size: cover;
     background-position: 100% 13%;
 }
-
+section.las-vegas.terms-conditions {
+    background: url(../img/terms-conditions.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 13%;
+}
 
 
 
