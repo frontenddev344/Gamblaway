@@ -1019,3 +1019,18 @@ div#venetian .row .col-lg-4:last-child {
     color: #fff;
     margin-bottom: 22px;
 }
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo ul {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+}
+
+.footer-menu {
+    margin-top: 32px;
+}
