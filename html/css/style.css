@@ -71,6 +71,10 @@ nav.navbar img {
     text-decoration: none;
 }
 
+.nav-item a.active {
+    color: #fd871d;
+}
+
 .nav-item a:hover {
     color: #fd871d;
 }
