@@ -1,3 +1,14 @@
+@media only screen and (max-width: 1400px) {
+    .nav-item a {
+        display: inline-block;
+        padding: 4px 4px;
+        font-size: 13px;
+
+    }
+}
+
+
+
 @media(max-width:1199px) {
     section.venetian {
         padding: 44px 0;
@@ -123,6 +134,7 @@
 }
 
 @media(max-width:767px) {
+
     .destinations-wrapper .row .col-lg-4:nth-child(2),
     .destinations-wrapper .row .col-lg-4:nth-child(3),
     .destinations-wrapper .row .col-lg-4:nth-child(4) {
