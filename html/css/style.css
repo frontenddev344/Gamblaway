@@ -561,12 +561,14 @@ section.las-vegas.canada {
     background-size: cover;
     background-position: 100% 13%;
 }
+
 section.las-vegas.newzea {
     background: url(../img/new-ze.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 13%;
 }
+
 section.las-vega.contact {
     background: url(../img/contact.jpeg);
     background-repeat: no-repeat;
@@ -581,20 +583,20 @@ section.las-vega.contact {
     background-position: top;
 
 }
+
 section.las-vegas.privacy {
     background: url(../img/privacy.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 13%;
 }
+
 section.las-vegas.terms-conditions {
     background: url(../img/terms-conditions.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 13%;
 }
-
-
 
 
 
@@ -1005,4 +1007,11 @@ div#venetian .row {
 
 div#venetian .row .col-lg-4:last-child {
     margin-top: 40px;
+}
+
+
+/* 29-8-23 */
+.description-card h4 {
+    color: #fff;
+    margin-bottom: 22px;
 }
