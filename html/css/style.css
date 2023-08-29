@@ -671,9 +671,7 @@ section.las-vegas::after {
     line-height: 1.7;
     font-family: "Open Sans", sans-serif;
     font-size: 19px;
-    width: 100%;
-    max-width: 621px;
-    margin: 0 auto;
+
     text-align: center;
 }
 
