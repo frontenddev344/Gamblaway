@@ -17,6 +17,7 @@
     section.gambler {
         padding: 40px 0;
     }
+
     .footer-links ul li a {
 
         font-size: 15px;
@@ -138,6 +139,25 @@
     .destinations-wrapper .row .col-lg-4:nth-child(3) {
         margin-top: 40px;
     }
+
+    section.las-vegas.bnr {
+        background-position: center;
+    }
+
+    section.las-vegas.macau {
+
+        background-position: center;
+    }
+    section.las-vegas.monte-carlo {
+        background-position: center;
+    }
+
+
+
+
+
+
+
 }
 
 @media(max-width:767px) {
