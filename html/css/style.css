@@ -161,13 +161,13 @@ nav.navbar img {
     }
 }
 
-header.sticky {
-    background: #150035;
+/* header.sticky {
+    background: #000;
     position: fixed;
     top: 0;
     border-bottom: 1px solid rgba(255, 200, 39, 0.1);
     padding: 10px 0;
-}
+} */
 
 /* Banner css */
 section.bnr {
@@ -186,7 +186,7 @@ section.bnr::after {
     height: 100%;
     left: 0;
     top: 0;
-    background: #150035;
+    background: #000;
     opacity: .9;
     z-index: -9;
 }
@@ -283,7 +283,7 @@ section.bnr::after {
 
 /* section.gambler */
 section.gambler {
-    background: #150035;
+    background: #fff;
     padding: 80px 0;
     position: relative;
 }
@@ -293,7 +293,7 @@ section.gambler {
 }
 
 .gambler-text p {
-    color: rgba(255, 255, 255, 0.8);
+    color: #000;
     line-height: 1.7;
     font-family: "Open Sans", sans-serif;
     font-size: 19px;
@@ -378,12 +378,11 @@ img.shape.shape1 {
 }
 
 section.destinations {
-    background: url(../img/bg3.jpg);
     position: relative;
     z-index: 99;
     padding: 80px 0;
 }
-
+/* 
 section.destinations::after {
     position: absolute;
     content: "";
@@ -394,7 +393,7 @@ section.destinations::after {
     background: #150035;
     opacity: .9;
     z-index: -9;
-}
+} */
 
 .destinations-wrapper .row .col-lg-4:last-child,
 .destinations-wrapper .row .col-lg-4:nth-child(4),
@@ -408,7 +407,7 @@ section.destinations::after {
 }
 
 .description-card p {
-    color: rgba(255, 255, 255, 0.8);
+    color: #000;
     line-height: 1.7;
     font-family: "Open Sans", sans-serif;
     font-size: 19px;
@@ -429,7 +428,7 @@ footer::before {
     height: 100%;
     left: 0;
     top: 0;
-    background: #150035;
+    background: #000;
     opacity: .9;
     z-index: -9;
 }
@@ -446,7 +445,7 @@ footer::before {
 }
 
 .footer-logo ul li a i {
-    background: #150035;
+    background: #000;
     height: 40px;
     width: 40px;
     padding: 9px;
@@ -667,7 +666,7 @@ section.las-vegas::after {
 }
 
 #las-vegas .gambler-iiner p {
-    color: rgba(255, 255, 255, 0.8);
+    color: #000;
     line-height: 1.7;
     font-family: "Open Sans", sans-serif;
     font-size: 19px;
@@ -677,14 +676,14 @@ section.las-vegas::after {
 
 
 section.venetian {
-    background: url(../img/bg3.jpg)no-repeat;
+    /* background: url(../img/bg3.jpg)no-repeat; */
     background-size: cover;
     background-position: center;
     padding: 0px 0 80px;
     position: relative;
     z-index: 99;
 }
-
+/* 
 section.venetian::after {
     position: absolute;
     content: "";
@@ -695,15 +694,14 @@ section.venetian::after {
     background: #150035;
     opacity: .9;
     z-index: -9;
-}
+} */
 
 .text_box {
     height: 100%;
-    box-shadow: -3.828px -3.828px 6px 0px rgba(255, 200, 39, 0.4), 3px 5px 8px 0px rgba(255, 82, 1, 0.2);
-    background: #150035;
     padding: 16px 16px 70px;
-
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     position: relative;
+    border-color: #fff;
 }
 
 .text_hotel {
@@ -712,23 +710,23 @@ section.venetian::after {
 
 .text_hotel h3 {
     line-height: 1.4;
-    color: #fd871d;
+    color: #000;
     font-family: "Josefin Sans", sans-serif;
     font-size: 24px;
-    text-shadow: 3px -4px 8px rgba(255, 200, 39, 0.3);
+    
 }
 
 .text_hotel p {
-    color: rgba(255, 255, 255, 0.8);
+    color: #000;
     line-height: 1.7;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
 }
 
 .more a {
-    box-shadow: -3.828px -3.828px 6px 0px rgba(255, 200, 39, 0.4), 3px 5px 8px 0px rgba(255, 82, 1, 0.2);
-    background: linear-gradient(0deg, #ff9c19 40%, #ffdd2d 110%);
-    color: #1f1f23;
+    
+    background: #fd871d;
+    color: #fff;
     padding: 12px 24px;
     font-size: 16px;
     font-weight: 500;
@@ -791,7 +789,7 @@ section.venetian::after {
     border-radius: 5px 5px 0px 0px;
     font-size: 18px;
     font-weight: 500;
-    background: #150035;
+    background: #000;
     border: 1px solid rgba(255, 200, 39, 0.15);
 }
 
@@ -811,7 +809,7 @@ button.accordion.main-acc.one:focus {
 }
 
 .panel.main-panel {
-    background: #150035;
+    background: #000;
     border-radius: 0px 0px 5px 5px;
     height: 100%;
 }
@@ -907,12 +905,12 @@ button.accordion.main-acc.one.dr {
 
 
 section.drop-faq {
-    background: #150035;
+    background: #fff;
     padding: 80px 0;
 }
 
 .faq-inner p.keep {
-    color: rgba(255, 255, 255, 0.8);
+    color: #000;
     line-height: 1.7;
     font-family: "Open Sans", sans-serif;
     text-align: center;
@@ -940,7 +938,7 @@ body#macau .main-area-faqs {
 }
 
 .gambler-iiner p {
-    color: rgba(255, 255, 255, 0.8);
+    color: #000;
     line-height: 1.7;
     font-family: "Open Sans", sans-serif;
     font-size: 19px;
@@ -965,13 +963,13 @@ section.privacy-text .text-inner h5 {
     padding-bottom: 20px;
     font-weight: 500;
     padding-bottom: 16px;
-    color: #fff;
+    color: #000;
     font-family: "Josefin Sans", sans-serif;
 }
 
 section.privacy-text .text-inner p {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.8);
+    color: #000;
     line-height: 1.7;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
@@ -988,7 +986,7 @@ section.privacy-text .text-inner p {
     padding-left: 20px;
     padding-bottom: 15px;
     font-size: 18px;
-    color: #fff;
+    color: #000 ;
     font-family: "Open Sans", sans-serif;
 }
 
