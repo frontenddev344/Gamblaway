@@ -171,12 +171,15 @@ nav.navbar img {
 
 /* Banner css */
 section.bnr {
-    background: url(../img/bnr-bg.png)no-repeat;
+    background: url(../img/bnr-bg.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     padding: 130px 0;
     position: relative;
     z-index: 99;
+    height: 800px;
+    display: flex;
+    align-items: center;
 }
 
 section.bnr::after {
@@ -186,7 +189,7 @@ section.bnr::after {
     height: 100%;
     left: 0;
     top: 0;
-    background: #000;
+    background: #000000a8;
     opacity: .9;
     z-index: -9;
 }
@@ -202,6 +205,10 @@ section.bnr::after {
     color: #fff;
     font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .bnr-text h1 span {
@@ -382,6 +389,7 @@ section.destinations {
     z-index: 99;
     padding: 80px 0;
 }
+
 /* 
 section.destinations::after {
     position: absolute;
@@ -683,6 +691,7 @@ section.venetian {
     position: relative;
     z-index: 99;
 }
+
 /* 
 section.venetian::after {
     position: absolute;
@@ -699,7 +708,7 @@ section.venetian::after {
 .text_box {
     height: 100%;
     padding: 16px 16px 70px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     position: relative;
     border-color: #fff;
 }
@@ -713,7 +722,7 @@ section.venetian::after {
     color: #000;
     font-family: "Josefin Sans", sans-serif;
     font-size: 24px;
-    
+
 }
 
 .text_hotel p {
@@ -724,7 +733,7 @@ section.venetian::after {
 }
 
 .more a {
-    
+
     background: #fd871d;
     color: #fff;
     padding: 12px 24px;
@@ -986,7 +995,7 @@ section.privacy-text .text-inner p {
     padding-left: 20px;
     padding-bottom: 15px;
     font-size: 18px;
-    color: #000 ;
+    color: #000;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -1030,6 +1039,7 @@ div#venetian .row .col-lg-4:last-child {
 .footer-menu {
     margin-top: 32px;
 }
-.footer-links ul{
-    padding:0;
+
+.footer-links ul {
+    padding: 0;
 }
