@@ -608,6 +608,43 @@ section.las-vegas.terms-conditions {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.las-vegas::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0 0 0 / 53%);
+    opacity: .75;
+    z-index: -9;
+}
+
 .bnr-iner h2 {
     text-align: center;
     color: #fff;
