@@ -539,7 +539,7 @@ section.las-vegas.bnr {
     background: url(../img/las-vegas-bnr.jpeg)no-repeat;
     background-size: cover;
     background-position: center;
-    background-position: 100% 15%;
+
 }
 
 section.las-vegas.macau {
@@ -547,37 +547,34 @@ section.las-vegas.macau {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position: 100% 30%;
 }
-
 section.las-vegas.monte-carlo {
-    background: url(../img/monte.jpeg);
+    background: url(../img/monte.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position: 100% 15%;
 }
 
 section.las-vegas.atlantic-city {
-    background: url(../img/atlantic-city-bnr.jpeg);
+    background: url(../img/atlantic-city-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 13%;
+    background-position: center;
 
 }
 
 section.las-vegas.canada {
-    background: url(../img/canada-bnr.jpeg);
+    background: url(../img/canada-bnr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 13%;
+    background-position: center;
 }
 
 section.las-vegas.newzea {
-    background: url(../img/new-ze.jpeg);
+    background: url(../img/new-ze.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 13%;
+    background-position: center;
 }
 
 section.las-vega.contact {
@@ -591,7 +588,7 @@ section.las-vega.contact {
     justify-self: center;
     position: relative;
     z-index: 99;
-    background-position: top;
+    background-position: center;
 
 }
 
@@ -599,14 +596,14 @@ section.las-vegas.privacy {
     background: url(../img/privacy.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 13%;
+    background-position: center;
 }
 
 section.las-vegas.terms-conditions {
     background: url(../img/terms-conditions.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 13%;
+    background-position: center;
 }
 
 
