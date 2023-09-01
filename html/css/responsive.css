@@ -214,4 +214,21 @@
     .gambler-text {
         margin-top: 30px;
     }
+
+    section.bnr.home {
+        height: 400px;
+    }
+
+    section.destinations {
+
+        padding: 25px 0;
+    }
+
+    section.venetian {
+        padding: 44px 0 0 0;
+    }
+
+    .main-area-faqs {
+        margin-top: 80px;
+    }
 }
