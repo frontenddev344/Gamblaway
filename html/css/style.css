@@ -170,6 +170,9 @@ header.sticky {
 }
 
 /* Banner css */
+section.las-vegas.bnr h2 {
+    margin-top: 40px;
+}
 section.bnr {
     background: url(../img/bnr-bg.jpg)no-repeat;
     background-size: cover;
