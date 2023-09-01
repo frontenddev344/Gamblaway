@@ -189,7 +189,7 @@ section.bnr::after {
     height: 100%;
     left: 0;
     top: 0;
-    background: #000000a8;
+    background: rgb(0 0 0 / 53%);
     opacity: .9;
     z-index: -9;
 }
@@ -464,7 +464,6 @@ footer::before {
     transition: all 0.3s;
     display: inline-block;
     margin: 20px 16px 0 0;
-    box-shadow: -3.828px -3.828px 6px 0px rgba(255, 200, 39, 0.4), 3px 5px 8px 0px rgba(255, 82, 1, 0.2);
 }
 
 .footer-logo ul li a i:hover {
@@ -548,6 +547,7 @@ section.las-vegas.macau {
     background-size: cover;
     background-position: center;
 }
+
 section.las-vegas.monte-carlo {
     background: url(../img/monte.jpg);
     background-repeat: no-repeat;
@@ -605,32 +605,6 @@ section.las-vegas.terms-conditions {
     background-size: cover;
     background-position: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 section.las-vegas::after {
