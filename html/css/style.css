@@ -758,7 +758,7 @@ section.venetian::after {
     font-size: 18px;
     font-weight: 500;
     background: #fff;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
 }
 
 .sub-acc {
@@ -772,22 +772,13 @@ button.accordion.main-acc.one:focus {
     outline: none;
 }
 
+button.accordion.main-acc.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /*  */
-button.accordion.main-acc.one {
-    border-bottom: none;
-}
-
-button.accordion.main-acc.one.active {
-    border-bottom: 1px solid;
-}
-
-
-
-
-
-
-
 
 .main-faq-diclamier {
     margin-top: 80px;
@@ -797,15 +788,18 @@ button.accordion.main-acc.one.active {
     background: #fff;
     border-radius: 0px 0px 5px 5px;
     height: 100%;
-    border: 2px solid #ccc;
-   
+
+
 }
 
 .panel.main-panel p {
     padding: 18px;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
-    color:#000;
+    color: #000;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .list-content {
