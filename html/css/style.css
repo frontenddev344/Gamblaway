@@ -423,22 +423,10 @@ section.destinations::after {
 
 /* footer css */
 footer {
-    background: url(../img/footer-bg.jpg);
+    background-color: #000;
     position: relative;
     z-index: 99;
     padding: 40px 0 35px;
-}
-
-footer::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: #000;
-    opacity: .9;
-    z-index: -9;
 }
 
 .footer-logo img {
@@ -758,7 +746,7 @@ section.venetian::after {
 
 /* FAQS */
 .accordion {
-    color: #fff;
+    color: #000;
     width: 100%;
     border: none;
     text-align: left;
@@ -769,8 +757,8 @@ section.venetian::after {
     border-radius: 5px 5px 0px 0px;
     font-size: 18px;
     font-weight: 500;
-    background: #000;
-    border: 1px solid rgba(255, 200, 39, 0.15);
+    background: #fff;
+    border: 2px solid #ccc;
 }
 
 .sub-acc {
@@ -784,21 +772,40 @@ button.accordion.main-acc.one:focus {
     outline: none;
 }
 
+
+/*  */
+button.accordion.main-acc.one {
+    border-bottom: none;
+}
+
+button.accordion.main-acc.one.active {
+    border-bottom: 1px solid;
+}
+
+
+
+
+
+
+
+
 .main-faq-diclamier {
     margin-top: 80px;
 }
 
 .panel.main-panel {
-    background: #000;
+    background: #fff;
     border-radius: 0px 0px 5px 5px;
     height: 100%;
+    border: 2px solid #ccc;
+   
 }
 
 .panel.main-panel p {
     padding: 18px;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
-    color: rgba(255, 255, 255, 0.8);
+    color:#000;
 }
 
 .list-content {
@@ -821,7 +828,7 @@ button.accordion.main-acc.one.dr {
 
 .accordion:after {
     content: "\002B";
-    color: #fff;
+    color: #000;
     font-weight: bold;
     float: right;
     margin-left: 5px;
