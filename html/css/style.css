@@ -161,13 +161,13 @@ nav.navbar img {
     }
 }
 
-/* header.sticky {
+header.sticky {
     background: #000;
     position: fixed;
     top: 0;
     border-bottom: 1px solid rgba(255, 200, 39, 0.1);
     padding: 10px 0;
-} */
+}
 
 /* Banner css */
 section.bnr {
